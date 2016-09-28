@@ -1,5 +1,5 @@
-ifndef $(CFLAGS)
-CFLAGS  += -std=c99 -Wall -O2 -D_REENTRANT
+ifndef CFLAGS
+CFLAGS  := -std=c99 -Wall -O2 -D_REENTRANT
 endif
 LIBS    := -lpthread -lm -lssl -lcrypto
 
